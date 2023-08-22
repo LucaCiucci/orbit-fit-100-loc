@@ -1,0 +1,14 @@
+[package]
+name = "orbit-fit-100-loc"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+differential = { git = "https://github.com/LucaCiucci/differential-rs/", version = "0.1.0" }
+levenberg-marquardt = "0.13.0"
+nalgebra = "0.32.3"
+num-traits = "0.2.16"
+plotters = "0.3.5"
+rand = "0.8.5"
